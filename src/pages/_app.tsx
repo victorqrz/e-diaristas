@@ -4,7 +4,7 @@ import theme from "ui/themes/theme";
 import Head from "next/head";
 import Header from "ui/components/surfaces/Header";
 import Footer from "ui/components/surfaces/Footer";
-import { AppContainer } from "@styles/pages/_app";
+import { AppContainer } from "@styles/pages/_app.style";
 
 function MyApp({ Component, pageProps }) {
   return (
