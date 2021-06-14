@@ -8,8 +8,8 @@ export const FormElementsContainer = styled("div")`
   gap: ${({ theme }) => theme.spacing(5)};
   max-width: 650px;
   margin: 0 auto ${({ theme }) => theme.spacing(7)};
-  ${({ theme }) => theme.breakpoints.down("md")} {
-    max-width: 350px;
+  ${({ theme }) => theme.breakpoints.down("sm")} {
+    max-width: 375px;
   }
 `;
 
